@@ -1,0 +1,16 @@
+{
+  "name": "btxos",
+  "version": "1.0.0",
+  "description": "BTXOS Rebirth - Anime inspired modular OS",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "dist": "electron-builder"
+  },
+  "author": "Erta� Pa�a",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^28.3.3",
+    "electron-builder": "^24.0.0"
+  }
+}
