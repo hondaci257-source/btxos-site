@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>BTXOS Resmi İndirme</title>
+  <style>
+    body { font-family: system-ui, sans-serif; margin:0; background:#0b1220; color:#eaf0ff; }
+    .wrap { max-width:960px; margin:0 auto; padding:24px; }
+    header { text-align:center; padding:48px 0; }
+    .btn { background:#4c7cff; color:#fff; padding:12px 18px; border-radius:8px; text-decoration:none; }
+    .card { background:#121a30; padding:16px; border-radius:12px; margin:12px 0; }
+    footer { text-align:center; margin-top:32px; font-size:14px; }
+    code { background:#0f1426; padding:2px 6px; border-radius:6px; }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <h1>BTXOS Resmi İndirme</h1>
+      <p>Güvenli, konforlu ve tüm donanımlara uygun.</p>
+      <a class="btn" href="https://github.com/ertacpasa/btxos-site/releases/download/v1.0/btxos-v1.0.iso">Stable v1.0 indir</a>
+    </header>
+
+    <section class="card">
+      <h2>Doğrulama</h2>
+      <p>İndirdikten sonra dosyayı doğrulayın:</p>
+      <pre><code>sha256sum btxos-v1.0.iso
+gpg --verify btxos-v1.0.iso.sig</code></pre>
+      <p><a href="btxos-v1.0.sha256.txt">SHA‑256</a> · <a href="btxos-v1.0.iso.sig">GPG imza</a></p>
+    </section>
+
+    <section class="card">
+      <h2>Sürüm Kanalları</h2>
+      <ul>
+        <li>Stable — kararlı, önerilen</li>
+        <li>Beta — yeni özellikler, test amaçlı</li>
+        <li>Nightly — en yeni, deneysel</li>
+      </ul>
+    </section>
+
+    <footer>
+      <p><a href="license.html">Lisans</a> · <a href="privacy.html">Gizlilik</a> · <a href="eula.html">EULA</a></p>
+    </footer>
+  </div>
+</body>
+</html>
